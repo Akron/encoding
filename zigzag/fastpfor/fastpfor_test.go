@@ -10,8 +10,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/dataence/encoding/benchtools"
-	"github.com/dataence/encoding/generators"
+	"github.com/vteromero/encoding/benchtools"
+	"github.com/vteromero/encoding/generators"
 )
 
 var (

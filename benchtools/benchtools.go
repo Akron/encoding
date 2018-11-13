@@ -18,8 +18,8 @@ import (
 	"time"
 
 	"code.google.com/p/snappy-go/snappy"
-	"github.com/dataence/encoding"
-	"github.com/dataence/encoding/cursor"
+	"github.com/vteromero/encoding"
+	"github.com/vteromero/encoding/cursor"
 )
 
 func TestCodec(codec encoding.Integer, in []int32, sizes []int) {

@@ -9,9 +9,9 @@ package bp32
 import (
 	"errors"
 
-	"github.com/dataence/encoding"
-	"github.com/dataence/encoding/bitpacking"
-	"github.com/dataence/encoding/cursor"
+	"github.com/vteromero/encoding"
+	"github.com/vteromero/encoding/bitpacking"
+	"github.com/vteromero/encoding/cursor"
 )
 
 const (

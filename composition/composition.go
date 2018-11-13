@@ -9,8 +9,8 @@ package composition
 import (
 	"errors"
 
-	"github.com/dataence/encoding"
-	"github.com/dataence/encoding/cursor"
+	"github.com/vteromero/encoding"
+	"github.com/vteromero/encoding/cursor"
 )
 
 type Composition struct {

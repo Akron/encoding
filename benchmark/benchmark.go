@@ -20,17 +20,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dataence/encoding"
-	"github.com/dataence/encoding/bp32"
-	"github.com/dataence/encoding/composition"
-	"github.com/dataence/encoding/cursor"
-	dbp32 "github.com/dataence/encoding/delta/bp32"
-	dfastpfor "github.com/dataence/encoding/delta/fastpfor"
-	dvb "github.com/dataence/encoding/delta/variablebyte"
-	"github.com/dataence/encoding/fastpfor"
-	"github.com/dataence/encoding/variablebyte"
-	zbp32 "github.com/dataence/encoding/zigzag/bp32"
-	zfastpfor "github.com/dataence/encoding/zigzag/fastpfor"
+	"github.com/vteromero/encoding"
+	"github.com/vteromero/encoding/bp32"
+	"github.com/vteromero/encoding/composition"
+	"github.com/vteromero/encoding/cursor"
+	dbp32 "github.com/vteromero/encoding/delta/bp32"
+	dfastpfor "github.com/vteromero/encoding/delta/fastpfor"
+	dvb "github.com/vteromero/encoding/delta/variablebyte"
+	"github.com/vteromero/encoding/fastpfor"
+	"github.com/vteromero/encoding/variablebyte"
+	zbp32 "github.com/vteromero/encoding/zigzag/bp32"
+	zfastpfor "github.com/vteromero/encoding/zigzag/fastpfor"
 )
 
 type paramList []string

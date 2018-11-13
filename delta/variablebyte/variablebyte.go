@@ -10,8 +10,8 @@ import (
 	"errors"
 
 	"github.com/dataence/bytebuffer"
-	"github.com/dataence/encoding"
-	"github.com/dataence/encoding/cursor"
+	"github.com/vteromero/encoding"
+	"github.com/vteromero/encoding/cursor"
 )
 
 type VariableByte struct {

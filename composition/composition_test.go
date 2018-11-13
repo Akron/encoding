@@ -10,13 +10,13 @@ import (
 	"log"
 	"testing"
 
-	"github.com/dataence/encoding"
-	"github.com/dataence/encoding/benchtools"
-	"github.com/dataence/encoding/bp32"
-	dbp32 "github.com/dataence/encoding/delta/bp32"
-	dvb "github.com/dataence/encoding/delta/variablebyte"
-	"github.com/dataence/encoding/generators"
-	"github.com/dataence/encoding/variablebyte"
+	"github.com/vteromero/encoding"
+	"github.com/vteromero/encoding/benchtools"
+	"github.com/vteromero/encoding/bp32"
+	dbp32 "github.com/vteromero/encoding/delta/bp32"
+	dvb "github.com/vteromero/encoding/delta/variablebyte"
+	"github.com/vteromero/encoding/generators"
+	"github.com/vteromero/encoding/variablebyte"
 )
 
 var (
