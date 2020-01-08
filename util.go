@@ -8,6 +8,7 @@ package encoding
 
 import (
 	"fmt"
+	"math/bits"
 )
 
 func FloorBy(value, factor int) int {
@@ -20,7 +21,8 @@ func CeilBy(value, factor int) int {
 
 func LeadingBitPosition(x uint32) int32 {
 	//return 32 - int32(nlz1a(x))
-	return int32(bitlen(uint64(x)))
+	//return int32(bitlen(uint64(x)))
+	return int32(bits.Len(uint(x)))
 }
 
 func DeltaMaxBits(initoffset int32, buf []int32) int32 {

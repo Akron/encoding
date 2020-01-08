@@ -17,7 +17,7 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"code.google.com/p/snappy-go/snappy"
+	"github.com/golang/snappy"
 	"github.com/vteromero/encoding"
 	"github.com/vteromero/encoding/cursor"
 )
@@ -203,10 +203,7 @@ func RunTestSnappy(data []byte) {
 	log.Printf("encoding/RunTestSnappy: Testing comprssion Snappy\n")
 
 	now := time.Now()
-	e, err := snappy.Encode(nil, data)
-	if err != nil {
-		log.Fatalf("encoding/RunTestSnappy: encoding error: %v\n", err)
-	}
+	e := snappy.Encode(nil, data)
 	log.Printf("encoding/RunTestSnappy: Compressed from %d bytes to %d bytes in %d ns\n", len(data), len(e), time.Since(now).Nanoseconds())
 
 	d, err := snappy.Decode(nil, e)

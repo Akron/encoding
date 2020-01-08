@@ -20,10 +20,10 @@ import (
 	"errors"
 	"math"
 
-	"github.com/dataence/bytebuffer"
 	"github.com/vteromero/encoding"
 	"github.com/vteromero/encoding/bitpacking"
 	"github.com/vteromero/encoding/cursor"
+	"github.com/zentures/bytebuffer"
 )
 
 const (
