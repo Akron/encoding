@@ -19,9 +19,9 @@ package bp32
 import (
 	"errors"
 
-	"github.com/vteromero/encoding"
-	"github.com/vteromero/encoding/bitpacking"
-	"github.com/vteromero/encoding/cursor"
+	"github.com/Akron/encoding"
+	"github.com/Akron/encoding/bitpacking"
+	"github.com/Akron/encoding/cursor"
 )
 
 const (

@@ -10,9 +10,9 @@ import (
 	"log"
 	"testing"
 
-	"github.com/vteromero/encoding/benchtools"
-	"github.com/vteromero/encoding/cursor"
-	"github.com/vteromero/encoding/generators"
+	"github.com/Akron/encoding/benchtools"
+	"github.com/Akron/encoding/cursor"
+	"github.com/Akron/encoding/generators"
 )
 
 var (

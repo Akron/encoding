@@ -7,7 +7,7 @@
 package encoding
 
 import (
-	"github.com/vteromero/encoding/cursor"
+	"github.com/Akron/encoding/cursor"
 )
 
 type Integer interface {

@@ -20,17 +20,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vteromero/encoding"
-	"github.com/vteromero/encoding/bp32"
-	"github.com/vteromero/encoding/composition"
-	"github.com/vteromero/encoding/cursor"
-	dbp32 "github.com/vteromero/encoding/delta/bp32"
-	dfastpfor "github.com/vteromero/encoding/delta/fastpfor"
-	dvb "github.com/vteromero/encoding/delta/variablebyte"
-	"github.com/vteromero/encoding/fastpfor"
-	"github.com/vteromero/encoding/variablebyte"
-	zbp32 "github.com/vteromero/encoding/zigzag/bp32"
-	zfastpfor "github.com/vteromero/encoding/zigzag/fastpfor"
+	"github.com/Akron/encoding"
+	"github.com/Akron/encoding/bp32"
+	"github.com/Akron/encoding/composition"
+	"github.com/Akron/encoding/cursor"
+	dbp32 "github.com/Akron/encoding/delta/bp32"
+	dfastpfor "github.com/Akron/encoding/delta/fastpfor"
+	dvb "github.com/Akron/encoding/delta/variablebyte"
+	"github.com/Akron/encoding/fastpfor"
+	"github.com/Akron/encoding/variablebyte"
+	zbp32 "github.com/Akron/encoding/zigzag/bp32"
+	zfastpfor "github.com/Akron/encoding/zigzag/fastpfor"
 )
 
 type paramList []string

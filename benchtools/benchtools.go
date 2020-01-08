@@ -17,9 +17,9 @@ import (
 	"runtime/pprof"
 	"time"
 
+	"github.com/Akron/encoding"
+	"github.com/Akron/encoding/cursor"
 	"github.com/golang/snappy"
-	"github.com/vteromero/encoding"
-	"github.com/vteromero/encoding/cursor"
 )
 
 func TestCodec(codec encoding.Integer, in []int32, sizes []int) {

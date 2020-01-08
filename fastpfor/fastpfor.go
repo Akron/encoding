@@ -20,9 +20,9 @@ import (
 	"errors"
 	"math"
 
-	"github.com/vteromero/encoding"
-	"github.com/vteromero/encoding/bitpacking"
-	"github.com/vteromero/encoding/cursor"
+	"github.com/Akron/encoding"
+	"github.com/Akron/encoding/bitpacking"
+	"github.com/Akron/encoding/cursor"
 	"github.com/zentures/bytebuffer"
 )
 

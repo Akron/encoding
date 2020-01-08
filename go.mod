@@ -1,4 +1,4 @@
-module github.com/vteromero/encoding
+module github.com/Akron/encoding
 
 go 1.13
 
